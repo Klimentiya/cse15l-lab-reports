@@ -4,6 +4,6 @@
 
 **No Arguments** 
 
-![Image](Cd no arguments. png) 
+![Image](CdNoArgs.png) 
 
 1. 
