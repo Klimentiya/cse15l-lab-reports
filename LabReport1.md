@@ -1,6 +1,6 @@
-## LAB 1 REPORT 
+# LAB 1 REPORT 
 
-# This is for the command cd 
+## This is for the command cd 
 
 **No Arguments** 
 
