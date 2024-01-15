@@ -4,7 +4,12 @@
 
 **No Arguments** 
 
-![Image](CdNoArgs.png) 
+1. ![Image](CdNoArgs.png) 
+2. The working directory when the command was runned was the default working directory-home directory.
+3. The output after the command was ran is that it takes you to the default/home directory, no matter what working directory you're in.
+4. The output was not an error.
 
-1. The working directory when the command was runned was the default working directory-home directory.
-2. The output after the command was ran was nothing, it was blank. The reason for why that was the output was because there was no arguments, and doing just cd(change directory) 
+**Path To Directory** 
+
+1. ![Image](CdD.png)
+2. 
