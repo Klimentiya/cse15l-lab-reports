@@ -6,7 +6,7 @@
 **No Arguments** 
 
 1. ![Image](CdNoArgs.png) 
-2. The working directory when the command was runned was the `default working directory-home directory`.
+2. The working directory after the command ran was `default/home directory`.
 3. The reason for why the output was taking you back to the `home directory` when running the command cd(change directory). Is because when there is no arguments the terminal assumes you want to go back to the `default/home working directory`. 
 4. The output was not an error.
 
