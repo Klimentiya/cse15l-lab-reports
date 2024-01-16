@@ -7,7 +7,7 @@
 
 1. ![Image](CdNoArgs.png) 
 2. The working directory after the command ran was `default/home directory`.
-3. The reason for why the output was taking you back to the `home directory` when running the command cd(change directory). Is because when there is no arguments the terminal assumes you want to go back to the `default/home working directory`. 
+3. The reason for why the output was taking you back to the `home directory` when running the command cd(change directory). Is because when there is no arguments the terminal assumes you want to go back to the `default/home directory`. 
 4. The output was not an error.
 
 
@@ -15,7 +15,7 @@
 
 1. ![Image](CdD.png)
 2. The working directory after the command ran was `lecture1`.
-3. The reason for why the output was `lecture1` is because cd(change directory) changes your working directory if you are going into a file such as `lecture`.
+3. The reason for why the output was `lecture1` is because cd(change directory) changes your working directory if you are going into a folder such as `lecture1`. So in this example we were in the `home` directory then changed into the `lecture1` directory. 
 4. The output was not an error.
 
 
@@ -56,7 +56,7 @@
  1.![Image](CatNoArgs.png)
 
 2. The working directory was the `default/home directory`
-3. The output after the command is a blank, but if you type anything in the terminal it would just copy and print the same thing you ran. It seems that if cat has no arguments it automatically will just read the terminal and repeat the argument. 
+3. The output after the command ran is a blank, but if you type anything in the terminal it would just copy and print the same thing you ran. It seems that if cat has no arguments it automatically will just read the terminal and repeat the argument. 
 4. The output was not an error as it seems that the cat function works as intended when there are no arguments, it would just instead by default print any arguments back in the terminal. 
 
 **Path To Directory** 
