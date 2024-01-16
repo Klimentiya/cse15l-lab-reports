@@ -62,7 +62,6 @@
 **Path To Directory** 
 
 1.![Image](CatD.png)
-
 2. The working directory was `lecture1`. 
 3. The output after the command ran was `cat: messages/: Is a directory`. The reason for why this was the output was because, cat can't read directories so it would just print out that the argument was a directory like for this example `cat messages`. 
 4. The output was not an error. 
