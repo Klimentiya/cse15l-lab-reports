@@ -54,6 +54,7 @@
 **No Arguments** 
 
 1.![Image](CatNoArgs.png)
+
 2. The working directory was the `default/home directory`
 3. The output after the command is a blank, but if you type anything in the terminal it would just copy and print the same thing you ran. It seems that if cat has no arguments it automatically will just read the terminal and repeat the argument. 
 4. The output was not an error as it seems that the cat function works as intended when there are no arguments, it would just instead by default print any arguments back in the terminal. 
@@ -61,6 +62,7 @@
 **Path To Directory** 
 
 1.![Image](CatD.png)
+
 2. The working directory was `lecture1`. 
 3. The output after the command ran was `cat: messages/: Is a directory`. The reason for why this was the output was because, cat can't read directories so it would just print out that the argument was a directory like for this example `cat messages`. 
 4. The output was not an error. 
