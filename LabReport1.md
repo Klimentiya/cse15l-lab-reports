@@ -2,6 +2,7 @@
 
 ## This is for the command cd 
 
+
 **No Arguments** 
 
 1. ![Image](CdNoArgs.png) 
@@ -9,12 +10,14 @@
 3. The reason for why the output was taking you back to the `home directory` when running the command cd(change directory). Is because when there is no arguments the terminal assumes you want to go back to the `default/home working directory`. 
 4. The output was not an error.
 
+
 **Path To Directory** 
 
 1. ![Image](CdD.png)
 2. The working directory after the command ran was `lecture1`.
 3. The reason for why the output was `lecture1` is because cd(change directory) changes your working directory if you are going into a file such as `lecture`.
 4. The output was not an error.
+
 
 **Path To A File** 
 
