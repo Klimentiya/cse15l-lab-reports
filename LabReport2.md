@@ -20,4 +20,10 @@
 2. The relevant arguments to the method is from the parameter `URI url`. Field `user` stores the second argument of the url(`yash`), field `messages` stores the first argument of the url(`How Are You`), the field `list` stores both `user and messages` in the wanted format, and the field `query` stores the whole url(`https://0-0-0-0-2214-fc9faraeal5eqdf00n7mfpga0o.us.edusercontent.com/add-message?s=How%20are%20you&user=yash`).
 3. Prior to the specific request all the fields were holding the previous values, but after the the specific request. The fields all now have new values that were specified at 2.
 
+## Part 2 
+
+
+## Part 3 
+
+What I had learned from lab in week 3 is how to implement my own website without the use of much help, I learned a lot of functionalities on how URL's work, etc. I also got introduced into scp, mkdir, and ssh-keygen which makes you able to connect remote devices without needing to input a password to log in. 
 
