@@ -1,1 +1,23 @@
+# Lab Report 2 
+
+## Part 1 
+
+**This is the code** 
+![Image](code1CS.png) 
+![Image](code2CS.png) 
+
+**These are the screenshots** 
+![Image](FirstArgs.png) 
+
+1. The method that is called `handleRequest`.
+2. The relevant arguments to the method is from the parameter `URI url`. Field `user` stores the second argument of the url(`jpolitz`), field `messages` stores the first argument of the url(`Hello`), the field `list` stores both `user and messages` in the wanted format, and the field `query` stores the whole url(`http://0-0-0-0-2214-fc9faraeal5eqdf00n7mfpga0o.us.edusercontent.com/add-message?s=Hello&user=jpolitz`)
+3. Prior to the specific request all the fields were basically empty except `query` since it copies the url. After the specific request all the field's values now hold specific values that was just mentioned at 2.
+
+
+![Image](SecondArgs.png) 
+
+1. The method that is called `handleRequest`.
+2. The relevant arguments to the method is from the parameter `URI url`. Field `user` stores the second argument of the url(`yash`), field `messages` stores the first argument of the url(`How Are You`), the field `list` stores both `user and messages` in the wanted format, and the field `query` stores the whole url(`https://0-0-0-0-2214-fc9faraeal5eqdf00n7mfpga0o.us.edusercontent.com/add-message?s=How%20are%20you&user=yash`).
+3. Prior to the specific request all the fields were holding the previous values, but after the the specific request. The fields all now have new values that were specified at 2.
+
 
