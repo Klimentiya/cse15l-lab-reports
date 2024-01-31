@@ -7,7 +7,7 @@
 ![Image](code2CS.png) 
 
 
-## **These are the screenshots** 
+ **These are the screenshots** 
 ![Image](FirstArgs.png) 
 
 1. The method that is called `handleRequest`.
@@ -22,7 +22,7 @@
 3. Prior to the specific request all the fields were holding the previous values, but after the the specific request. The fields all now have new values that were specified at 2.
 
 ## Part 2 
-## **This is the location of my private key** 
+ **This is the location of my private key** 
 ![Image](PrivateKey.png) 
 
 ![Image](PrivateK.png) 
