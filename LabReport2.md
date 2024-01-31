@@ -40,5 +40,5 @@ Path: `/home/linux/ieng6/oce/8h/kyugay/-ssh/id_rsa.pub` or `/Users/ky/.ssh/id_rs
 
 ## Part 3 
 
-What I had learned from lab in week 3 is how to implement my own website without the use of much help, I learned a lot of functionalities on how URL's work, etc. I also got introduced into scp, mkdir, and ssh-keygen which makes you able to connect remote devices without needing to input a password to log in. 
+What I had learned from lab in week 3 is how to implement my own website without the use of much help, I learned a lot of functionalities on how URL's work, etc. I also got introduced into scp, mkdir, and ssh-keygen which gives you the ability to connect to remote devices without needing to input a password to log in. 
 
