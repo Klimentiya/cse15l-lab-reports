@@ -24,12 +24,14 @@
 ## Part 2 
 **This is the location of my private key** 
 ![Image](PrivateKey.png) 
+
 ![Image](PrivateKey1.png) 
 Path: `/home/linux/ieng6/oce/8h/kyugay/-ssh/id_rsa` or `/Users/ky/.ssh/id_rsa` 
 
 
 **This is the location for my public key**
 ![Image](PublicKey.png) 
+
 ![Image](PublicKey1.png) 
 Path: `/home/linux/ieng6/oce/8h/kyugay/-ssh/id_rsa.pub` or `/Users/ky/.ssh/id_rsa.pub`
 
