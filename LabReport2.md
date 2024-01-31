@@ -2,7 +2,7 @@
 
 ## Part 1 
 
-## **This is the code** 
+ **This is the code** 
 ![Image](code1CS.png) 
 ![Image](code2CS.png) 
 
