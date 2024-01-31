@@ -25,14 +25,14 @@
 **This is the location of my private key** 
 ![Image](PrivateKey.png) 
 
-![Image](PrivateKeyAnother.png) 
+![Image](PrivateK.png) 
 Path: `/home/linux/ieng6/oce/8h/kyugay/-ssh/id_rsa` or `/Users/ky/.ssh/id_rsa` 
 
 
 **This is the location for my public key**
 ![Image](PublicKey.png) 
 
-![Image](PublicKeyAnother.png) 
+![Image](PublicK.png) 
 Path: `/home/linux/ieng6/oce/8h/kyugay/-ssh/id_rsa.pub` or `/Users/ky/.ssh/id_rsa.pub`
 
 **This is for logging in without asked a password** 
