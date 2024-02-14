@@ -97,11 +97,12 @@ The option `-i` with grep ignores the case when searching for phrases/words in f
 ![Image](Lab3_biomed5.png) 
 > In the first line I run `grep` without using the `-i` option. Since `grep` is case sensitive, there are no matches found for `BaSe PaIR` in any of the text files in the `biomed` directory. In the following command, I have used the` -i `option so `grep` ignores case sensitivity and searches for `BaSe PaIR` in all the text files in the biomed directory. Since `grep -i` is not case sensitive, multiple matches of the phrase `base pair` were found in many text files. 
 
+![Image](Lab3_biomed6.png) 
+> `grep -i` seacrches for the word `GENES` in the text file `1471-2164-4-22.txt`. The command finds multiple matches such as `genes` and `GENES`. 
 
 
 
-
-resources used: [https://www.gnu.org/software/grep/manual/grep.html](url)
+resources used: [https://www.gnu.org/software/grep/manual/grep.html](url) 
 
 
 
