@@ -3,12 +3,9 @@
 ## Part 1 
 
  **This is the code** 
-![Image](code1CS.png) 
-![Image](code2CS.png) 
-
+``` 
 import java.net.URI;
 import java.io.IOException;
-
 
 class Handler implements URLHandler{
     String messages = ""; 
@@ -70,6 +67,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
 
 
 
