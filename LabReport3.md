@@ -87,9 +87,9 @@ The `grep` command can also be used with the `-v` option which works as an inver
 ![Image](Lab3_Police.png) 
 This prints out all the words in the `preface.txt` file which do not match the word `We`. The output from this command is much longer as the file contains more text.
 
-![Image](Lab3_Police2.png) 
-Here the command searches through all the text files in the `911report` and prints out all the content which does not match the phrase "citizens to study". The output clearly shows which file each line corresponds to and the output is much larger than the image above.
-
+![Image](Lab_Police2.png) 
+> Here the command searches through all the text files in the `911report` and prints out all the content which does not match the phrase "citizens to study". The output clearly shows which file each line corresponds to and the output is much larger than the image above.
+<
 The option `-i` with grep ignores the case when searching for phrases/words in files. Generally, grep is case sensitive. The command :` grep -i "phrase/word" files`
 
 ![Image](Lab3_biomed5.png) 
