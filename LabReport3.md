@@ -31,7 +31,7 @@ public void testReverseInPlace() {
 }
 ```
 JUnit test that fails: 
-![Image](Lab3_JUnit.png) 
+![Image](Lab3_JUnit .png) 
 In this example `testReversedInPlace2` fails because the expected was `1` at `input1[2]` but actually it was `2` at `input1[2]`. And so the expected array was `{3,2,1,0}`, but was `{3,2,2,3}`. 
 
 The Bug in the program: 
