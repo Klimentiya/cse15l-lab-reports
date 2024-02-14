@@ -92,7 +92,7 @@ Here the command searches through all the text files in the `911report` and prin
 
 The option `-i` with grep ignores the case when searching for phrases/words in files. Generally, grep is case sensitive. The command :` grep -i "phrase/word" files`
 
-![Image](Lab3_Biomed5.png) 
+![Image](Lab3_biomed5.png) 
 
 
 
