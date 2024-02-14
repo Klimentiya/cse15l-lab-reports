@@ -6,6 +6,72 @@
 ![Image](code1CS.png) 
 ![Image](code2CS.png) 
 
+import java.net.URI;
+import java.io.IOException;
+
+
+class Handler implements URLHandler{
+    String messages = ""; 
+    String listArgs = ""; 
+    String user = "";    
+    
+    public String handleRequest(URI url) {
+    
+        String query = url.getQuery(); 
+  
+        if (url.getPath().equals("/")) {
+            return String.format(listArgs);
+        }else{
+            if (url.getPath().contains("/add-message")) {
+                if (query == null || query.isEmpty()) {
+                    return "400 Bad Request!";
+                }
+                
+                String[] params = query.split("&");
+                String message = null;
+                String username = null;
+
+                for (String param : params) {
+                    String[] keyValue = param.split("=");
+                    if (keyValue.length != 2) {
+                        return "400 Bad Request!";
+                    }
+                    String key = keyValue[0];
+                    String value = keyValue[1];
+                    if (key.equals("s")) {
+                        message = value;
+                    } else if (key.equals("user")) {
+                        username = value;
+                    }
+                }
+
+                if (message == null || username == null) {
+                    return "400 Bad Request!";
+                }
+
+                listArgs += username + ": " + message + "\n";
+
+                return listArgs;
+            }
+            return "404 Not Found!";
+            }
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+
 
  **These are the screenshots** 
 ![Image](FirstArgs.png) 
