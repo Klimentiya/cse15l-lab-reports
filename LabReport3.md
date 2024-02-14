@@ -64,28 +64,29 @@ They way to fix this code is to create a new array called `replaceArray` which s
 Proof of passing JUnit Tests: 
 ![Image](Lab3_Passed.png) 
 
-#Part 2 
+## Part 2 
+
 The grep command is used by writing `-c` or `-count` options. They count the number of occurences of a pattern in a file. Command: `grep -c "phrase/word" files`. 
 ![Image](Lab3_biomed.png) 
 
-In the image using `-c` counts the number of occurences of the word `is` in the text file `1471-213X-1-3.txt`. The output is `163` which means that word `is` appears `163` times. 
+>In the image using `-c` counts the number of occurences of the word `is` in the text file `1471-213X-1-3.txt`. The output is `163` which means that word `is` appears `163` times. 
 
 ![Image](Lab3_biomed2.png) 
 
-Using `-c` option to count the number of occurences of the word "is" in all the text file in the `biomed` directory. I have used `*.txt` to reference  all the files in the text files in the `biomed` directory. The output displays the number of times `is` appears in each text file in the directory. 
+>Using `-c` option to count the number of occurences of the word "is" in all the text file in the `biomed` directory. I have used `*.txt` to reference  all the files in the text files in the `biomed` directory. The output displays the number of times `is` appears in each text file in the directory. 
 
 The `grep` command can also be used with the `--include`. This option searches through the files which match a pattern specified by the `--include`. The command: `grep --include="file pattern" "phrase" file`.
-![Image](Lab3_biomed3.png) 
 
-The command above only searches through files which match the pattern` *1.txt` for the phrase "base pair". The `--include option` is followed by the pattern which the resulting file names must follow. The output contains all the text files which end with "1" and have the phrase "base pair". Further, the output prints the lines in which the phrase is present for each file.
+![Image](Lab3_biomed3.png) 
+>The command above only searches through files which match the pattern` *1.txt` for the phrase "base pair". The `--include option` is followed by the pattern which the resulting file names must follow. The output contains all the text files which end with "1" and have the phrase "base pair". Further, the output prints the lines in which the phrase is present for each file.
 
 ![Image](Lab3_biomed4.png) 
-The command above only searches through files which match the pattern `*2.txt` for the phrase "RRR-alpha-tocophery". There is only one file in the output. This is the only file in the `biomed `directory which ends with the number `2` and contains the phrase "RRR-alpha-tocophery".
+>The command above only searches through files which match the pattern `*2.txt` for the phrase "RRR-alpha-tocophery". There is only one file in the output. This is the only file in the `biomed `directory which ends with the number `2` and contains the phrase "RRR-alpha-tocophery".
 
 The `grep` command can also be used with the `-v` option which works as an invert match. This command prints out all the words in the specified files which do not match the specified phrase/word. The command `grep -v "phrase/word" files`
 
 ![Image](Lab3_Police.png) 
-This prints out all the words in the `preface.txt` file which do not match the word `We`. The output from this command is much longer as the file contains more text.
+>This prints out all the words in the `preface.txt` file which do not match the word `We`. The output from this command is much longer as the file contains more text.
 
 ![Image](Lab_Police2.png) 
 > Here the command searches through all the text files in the `911report` and prints out all the content which does not match the phrase "citizens to study". The output clearly shows which file each line corresponds to and the output is much larger than the image above.
@@ -94,6 +95,7 @@ This prints out all the words in the `preface.txt` file which do not match the w
 The option `-i` with grep ignores the case when searching for phrases/words in files. Generally, grep is case sensitive. The command :` grep -i "phrase/word" files`
 
 ![Image](Lab3_biomed5.png) 
+> In the first line I run `grep` without using the `-i` option. Since `grep` is case sensitive, there are no matches found for `BaSe PaIR` in any of the text files in the `biomed` directory. In the following command, I have used the` -i `option so `grep` ignores case sensitivity and searches for `BaSe PaIR` in all the text files in the biomed directory. Since `grep -i` is not case sensitive, multiple matches of the phrase `base pair` were found in many text files. 
 
 
 
