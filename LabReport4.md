@@ -10,4 +10,6 @@
 
 ![Image](Lab4Fork.png) 
 
-> 
+> For this step I had to just git clone
+
+
