@@ -2,7 +2,7 @@
 
 ## This is Step 4 
 
-![Image](Lab4_Login)
+![Image](Lab4_LogIn)
 
 > For this step I just had to log in into the ieng6 account by typing 'ssh kyugay@ieng6-201.ucsd.edu'
 
