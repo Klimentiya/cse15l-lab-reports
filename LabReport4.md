@@ -25,12 +25,20 @@
 
 ![Image](Lab4Fix.png)
 
-> `vim ListExamples.java` `<enter> e1 x i 2 :wq <enter> `
+> `vim <space> ListExamples.java` `<enter> e1 x i 2 :wq <enter> `
 > Those were exactly my keybinds to make the change
 
 ## This is Step 8 
 
-![Image](.png)
+![Image](Lab4TestSuccess.png)
+
+> `bash<space>test.sh<enter>`
+
+## This is Step 9 
+![Image](Lab4Commit.png)
+
+> `git<space>commit<enter>`
+
 
 
 
