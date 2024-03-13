@@ -89,6 +89,9 @@ c. `bash test.sh` which is what triggers the bug, the actual bug is in the Examp
 
 d. To fix the bug the student needed to vim into the right directory( which was the students issue) and change `index1 += 1` into `index2 += 1` in the code, in the second while loop. 
 
+## Part 2 
+
+Cool things that I have learned about is how to use vim, it was really cool to see that you don't need the files in your vsCode you can just run everything in the terminal. Another thing that I had learned was how to search for files, using commands like `find` or getting the word count of something like `wc`, etc. It was also really fun learning the function of git, such as adding new things in a file, pushing, etc. 
 
 
 
