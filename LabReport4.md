@@ -18,8 +18,8 @@
 
 ![Image](Lab7_Remake_Bash.png)
 
->For this step I just had to bash the test script
-> `bash<space>test.sh<enter>`
+>For this step I just had to cd into the `lab7` and bash the test script
+> `cd <space> lab7 <tab> <space> bash <space> test.sh<enter>`
 
 ## This is Step 7 
 
