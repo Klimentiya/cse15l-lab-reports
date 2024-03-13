@@ -25,7 +25,8 @@
 
 a. 
 /home/linux/ieng6/oce/8h/kyugay/lab7
-  ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
+
+ListExamples.class  ListExamples.java  ListExamplesTests.class  ListExamplesTests.java  StringChecker.class  lib  test.sh
 
 b. 
 > `ListExamples.java`
