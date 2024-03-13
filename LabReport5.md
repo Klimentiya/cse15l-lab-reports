@@ -2,7 +2,9 @@
 
 ## Part 1 
 
-1. Issue with Lab Report 4
+1.
+
+Issue with Lab Report 4
 > I am trying to do lab 4, but I am having issues with figuring out what is wrong with passing my tests, I tried to fix the issue in `ExamplesList` but I can't seem to do anything in vim.
 
 
@@ -12,9 +14,11 @@
 > The command that I had used was `vim ExampleList`. 
 
 2. 
+
 > The problem is, is that you are using vim on the wrong directory. The confusion is that you are using `vim ExamplesList`, instead try `vim ExamplesList.java` which should then vim you into the right directory. Once you get that figured out, the bug in ExamplesList.java that causes the failed tests, has something to do with how things are stored in indexes. 
 
 3.
+
 ![Image](Lab5Result.png)
 
 
