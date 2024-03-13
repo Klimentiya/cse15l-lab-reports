@@ -4,18 +4,20 @@
 
 1. Issue with Lab Report 4
 > I am trying to do lab 4, but I am having issues with figuring out what is wrong with passing my tests, I tried to fix the issue in `ExamplesList` but I can't seem to do anything in vim.
-[Image]()
-[Image]()
+[!Image](Lab5Bash.png)
+[!Image](Lab5ExampleList.png)
 
 > The command that I had used was `vim ExampleList`. 
 
 2. 
-> The problem is, is that you are using vim on the wrong directory. The confusion is that you are using `vim ExamplesList`, instead try `vim ExamplesList.java` which should then vim you into the right directory.
+> The problem is, is that you are using vim on the wrong directory. The confusion is that you are using `vim ExamplesList`, instead try `vim ExamplesList.java` which should then vim you into the right directory. Once you get that figured out, the bug in ExamplesList.java that causes the failed tests, has something to do with how things are stored in indexes. 
 
 3.
-[Image]()
+[!Image](Lab5Result.png)
 
->The bug that the student was experiencing was that he didn't know how to access the right directory, giving them the right feedback resulted in them going into the right directory using vim.
+
+>The issue was that the student was experiencing was that he didn't know how to access the right directory, giving them the right feedback resulted in them going into the right directory using vim.
+>The actual bug in the code that fails the tests is in `ExamplesList.java` which has an issue with the index in the second while loop. Instead of it being `index2 += 1` it was `index1 += 1`
 
 4. 
 
@@ -68,7 +70,6 @@ class ListExamples {
     }
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
-      // change index1 below to index2 to fix test
       index1 += 1;
     }
     return result;
@@ -77,6 +78,20 @@ class ListExamples {
 
 }
 ```
+
+> `test.sh` 
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+```
+
+c. `bash test.sh` which is what triggers the bug, the actual bug is in the ExampleList.java file. 
+
+d. To fix the bug the student needed to vim into the right directory( which was the students issue) and change `index1 += 1` into `index2 += 1` in the code, in the second while loop. 
+
+
+
+
 
     
 
